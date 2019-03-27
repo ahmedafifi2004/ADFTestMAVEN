@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <af:document title="home.jsf" id="d1">
+        <af:messages id="m1"/>
+        <af:form id="f1">
+            <af:panelFormLayout id="pfl1">
+                <af:inputText value="#{bindings.BusinessUnitCode.inputValue}"
+                              label="#{bindings.BusinessUnitCode.hints.label}"
+                              required="#{bindings.BusinessUnitCode.hints.mandatory}"
+                              columns="#{bindings.BusinessUnitCode.hints.displayWidth}"
+                              maximumLength="#{bindings.BusinessUnitCode.hints.precision}"
+                              shortDesc="#{bindings.BusinessUnitCode.hints.tooltip}" id="it1">
+                    <f:validator binding="#{bindings.BusinessUnitCode.validator}"/>
+                    <af:convertNumber groupingUsed="false" pattern="#{bindings.BusinessUnitCode.format}"/>
+                </af:inputText>
+                <af:inputText value="#{bindings.BusinessUnitId.inputValue}"
+                              label="#{bindings.BusinessUnitId.hints.label}"
+                              required="#{bindings.BusinessUnitId.hints.mandatory}"
+                              columns="#{bindings.BusinessUnitId.hints.displayWidth}"
+                              maximumLength="#{bindings.BusinessUnitId.hints.precision}"
+                              shortDesc="#{bindings.BusinessUnitId.hints.tooltip}" id="it2">
+                    <f:validator binding="#{bindings.BusinessUnitId.validator}"/>
+                    <af:convertNumber groupingUsed="false" pattern="#{bindings.BusinessUnitId.format}"/>
+                </af:inputText>
+                <af:inputText value="#{bindings.BusinessUnitName.inputValue}"
+                              label="#{bindings.BusinessUnitName.hints.label}"
+                              required="#{bindings.BusinessUnitName.hints.mandatory}"
+                              columns="#{bindings.BusinessUnitName.hints.displayWidth}"
+                              maximumLength="#{bindings.BusinessUnitName.hints.precision}"
+                              shortDesc="#{bindings.BusinessUnitName.hints.tooltip}" id="it3">
+                    <f:validator binding="#{bindings.BusinessUnitName.validator}"/>
+                </af:inputText>
+                <af:inputText value="#{bindings.BusinessUnitAddress.inputValue}"
+                              label="#{bindings.BusinessUnitAddress.hints.label}"
+                              required="#{bindings.BusinessUnitAddress.hints.mandatory}"
+                              columns="#{bindings.BusinessUnitAddress.hints.displayWidth}"
+                              maximumLength="#{bindings.BusinessUnitAddress.hints.precision}"
+                              shortDesc="#{bindings.BusinessUnitAddress.hints.tooltip}" id="it4">
+                    <f:validator binding="#{bindings.BusinessUnitAddress.validator}"/>
+                </af:inputText>
+                <af:inputText value="#{bindings.BusinessUnitManagerName.inputValue}"
+                              label="#{bindings.BusinessUnitManagerName.hints.label}"
+                              required="#{bindings.BusinessUnitManagerName.hints.mandatory}"
+                              columns="#{bindings.BusinessUnitManagerName.hints.displayWidth}"
+                              maximumLength="#{bindings.BusinessUnitManagerName.hints.precision}"
+                              shortDesc="#{bindings.BusinessUnitManagerName.hints.tooltip}" id="it5">
+                    <f:validator binding="#{bindings.BusinessUnitManagerName.validator}"/>
+                </af:inputText>
+                <af:inputText value="#{bindings.BusinessUnitPhone.inputValue}"
+                              label="#{bindings.BusinessUnitPhone.hints.label}"
+                              required="#{bindings.BusinessUnitPhone.hints.mandatory}"
+                              columns="#{bindings.BusinessUnitPhone.hints.displayWidth}"
+                              maximumLength="#{bindings.BusinessUnitPhone.hints.precision}"
+                              shortDesc="#{bindings.BusinessUnitPhone.hints.tooltip}" id="it6">
+                    <f:validator binding="#{bindings.BusinessUnitPhone.validator}"/>
+                </af:inputText>
+                <af:inputText value="#{bindings.BusinessUnitEmployeesCount.inputValue}"
+                              label="#{bindings.BusinessUnitEmployeesCount.hints.label}"
+                              required="#{bindings.BusinessUnitEmployeesCount.hints.mandatory}"
+                              columns="#{bindings.BusinessUnitEmployeesCount.hints.displayWidth}"
+                              maximumLength="#{bindings.BusinessUnitEmployeesCount.hints.precision}"
+                              shortDesc="#{bindings.BusinessUnitEmployeesCount.hints.tooltip}" id="it7">
+                    <f:validator binding="#{bindings.BusinessUnitEmployeesCount.validator}"/>
+                    <af:convertNumber groupingUsed="false" pattern="#{bindings.BusinessUnitEmployeesCount.format}"/>
+                </af:inputText>
+                <af:inputText value="#{bindings.BusinessUnitOwnerName.inputValue}"
+                              label="#{bindings.BusinessUnitOwnerName.hints.label}"
+                              required="#{bindings.BusinessUnitOwnerName.hints.mandatory}"
+                              columns="#{bindings.BusinessUnitOwnerName.hints.displayWidth}"
+                              maximumLength="#{bindings.BusinessUnitOwnerName.hints.precision}"
+                              shortDesc="#{bindings.BusinessUnitOwnerName.hints.tooltip}" id="it8">
+                    <f:validator binding="#{bindings.BusinessUnitOwnerName.validator}"/>
+                </af:inputText>
+                <af:inputText value="#{bindings.BusinessUnitField.inputValue}"
+                              label="#{bindings.BusinessUnitField.hints.label}"
+                              required="#{bindings.BusinessUnitField.hints.mandatory}"
+                              columns="#{bindings.BusinessUnitField.hints.displayWidth}"
+                              maximumLength="#{bindings.BusinessUnitField.hints.precision}"
+                              shortDesc="#{bindings.BusinessUnitField.hints.tooltip}" id="it9">
+                    <f:validator binding="#{bindings.BusinessUnitField.validator}"/>
+                </af:inputText>
+                <f:facet name="footer">
+                    <af:panelGroupLayout layout="horizontal" id="pgl1">
+                        <af:button actionListener="#{bindings.First.execute}" text="First"
+                                   disabled="#{!bindings.First.enabled}" partialSubmit="true" id="b1"/>
+                        <af:button actionListener="#{bindings.Previous.execute}" text="Previous"
+                                   disabled="#{!bindings.Previous.enabled}" partialSubmit="true" id="b2"/>
+                        <af:button actionListener="#{bindings.Next.execute}" text="Next"
+                                   disabled="#{!bindings.Next.enabled}" partialSubmit="true" id="b3"/>
+                        <af:button actionListener="#{bindings.Last.execute}" text="Last"
+                                   disabled="#{!bindings.Last.enabled}" partialSubmit="true" id="b4"/>
+                    </af:panelGroupLayout>
+                </f:facet>
+            </af:panelFormLayout>
+        </af:form>
+    </af:document>
+</f:view>

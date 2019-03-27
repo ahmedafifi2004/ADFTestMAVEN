@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.2.1.9.14" id="homePageDef"
+                Package="view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="BusinessUnitInfoView1" RangeSize="25" DataControl="AppModuleDataControl"
+              id="BusinessUnitInfoView1Iterator"/>
+  </executables>
+  <bindings>
+    <attributeValues IterBinding="BusinessUnitInfoView1Iterator" id="BusinessUnitCode">
+      <AttrNames>
+        <Item Value="BusinessUnitCode"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="BusinessUnitInfoView1Iterator" id="BusinessUnitId">
+      <AttrNames>
+        <Item Value="BusinessUnitId"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="BusinessUnitInfoView1Iterator" id="BusinessUnitName">
+      <AttrNames>
+        <Item Value="BusinessUnitName"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="BusinessUnitInfoView1Iterator" id="BusinessUnitAddress">
+      <AttrNames>
+        <Item Value="BusinessUnitAddress"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="BusinessUnitInfoView1Iterator" id="BusinessUnitManagerName">
+      <AttrNames>
+        <Item Value="BusinessUnitManagerName"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="BusinessUnitInfoView1Iterator" id="BusinessUnitPhone">
+      <AttrNames>
+        <Item Value="BusinessUnitPhone"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="BusinessUnitInfoView1Iterator" id="BusinessUnitEmployeesCount">
+      <AttrNames>
+        <Item Value="BusinessUnitEmployeesCount"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="BusinessUnitInfoView1Iterator" id="BusinessUnitOwnerName">
+      <AttrNames>
+        <Item Value="BusinessUnitOwnerName"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="BusinessUnitInfoView1Iterator" id="BusinessUnitField">
+      <AttrNames>
+        <Item Value="BusinessUnitField"/>
+      </AttrNames>
+    </attributeValues>
+    <action IterBinding="BusinessUnitInfoView1Iterator" id="First" RequiresUpdateModel="true" Action="first"/>
+    <action IterBinding="BusinessUnitInfoView1Iterator" id="Previous" RequiresUpdateModel="true" Action="previous"/>
+    <action IterBinding="BusinessUnitInfoView1Iterator" id="Next" RequiresUpdateModel="true" Action="next"/>
+    <action IterBinding="BusinessUnitInfoView1Iterator" id="Last" RequiresUpdateModel="true" Action="last"/>
+  </bindings>
+</pageDefinition>
