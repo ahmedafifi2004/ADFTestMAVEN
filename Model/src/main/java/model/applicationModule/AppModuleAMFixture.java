@@ -18,7 +18,7 @@ public class AppModuleAMFixture {
         EnvInfoProvider provider = new DynamicEnvInfoProvider("labor","labor");
                        
         
-        _am = Configuration.createRootApplicationModule("model.AppModule", "AppModuleLocal",provider);
+        _am = Configuration.createRootApplicationModule("model.AppModule", "AppModuleLocalTest",provider);
     }
 
     public void setUp() {
