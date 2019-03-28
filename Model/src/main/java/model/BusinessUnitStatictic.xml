@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="windows-1256" ?>
+<!DOCTYPE Entity SYSTEM "jbo_03_01.dtd">
+<!---->
+<Entity
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="BusinessUnitStatictic"
+  Version="12.2.1.9.14"
+  InheritPersonalization="merge"
+  DBObjectType="table"
+  DBObjectName="BUSINESS_UNIT_STATICTIC"
+  AliasName="BusinessUnitStatictic"
+  BindingStyle="OracleName">
+  <Attribute
+    Name="Id"
+    IsNotNull="true"
+    Precision="12"
+    Scale="0"
+    ColumnName="ID"
+    SQLType="NUMERIC"
+    Type="java.lang.Long"
+    ColumnType="NUMBER"
+    TableName="BUSINESS_UNIT_STATICTIC"
+    PrimaryKey="true"/>
+  <Attribute
+    Name="PeriodId"
+    IsNotNull="true"
+    Precision="12"
+    Scale="0"
+    ColumnName="PERIOD_ID"
+    SQLType="NUMERIC"
+    Type="java.lang.Long"
+    ColumnType="NUMBER"
+    TableName="BUSINESS_UNIT_STATICTIC"
+    PrimaryKey="true"/>
+  <Attribute
+    Name="BusinessUnitCode"
+    IsNotNull="true"
+    Precision="12"
+    Scale="0"
+    ColumnName="BUSINESS_UNIT_CODE"
+    SQLType="NUMERIC"
+    Type="java.lang.Long"
+    ColumnType="NUMBER"
+    TableName="BUSINESS_UNIT_STATICTIC"
+    PrimaryKey="true"/>
+  <Attribute
+    Name="StaticticDate"
+    IsNotNull="true"
+    ColumnName="STATICTIC_DATE"
+    SQLType="DATE"
+    Type="java.sql.Timestamp"
+    ColumnType="DATE"
+    TableName="BUSINESS_UNIT_STATICTIC"
+    PrimaryKey="true"/>
+  <Attribute
+    Name="Status"
+    IsNotNull="true"
+    Precision="3"
+    ColumnName="STATUS"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="BUSINESS_UNIT_STATICTIC"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="3"/>
+    </DesignTime>
+  </Attribute>
+  <Key
+    Name="BusinessunitstaticticPrimaryKey"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DBObjectName" Value="BUSINESSUNITSTATICTIC_PRIMARY_"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="model.BusinessUnitStatictic.Id"/>
+      <Item Value="model.BusinessUnitStatictic.PeriodId"/>
+      <Item Value="model.BusinessUnitStatictic.BusinessUnitCode"/>
+      <Item Value="model.BusinessUnitStatictic.StaticticDate"/>
+      <Item Value="model.BusinessUnitStatictic.Status"/>
+    </AttrArray>
+  </Key>
+</Entity>

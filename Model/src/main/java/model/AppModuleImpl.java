@@ -22,5 +22,13 @@ public class AppModuleImpl extends ApplicationModuleImpl {
     public ViewObjectImpl getBusinessUnitInfoView1() {
         return (ViewObjectImpl) findViewObject("BusinessUnitInfoView1");
     }
+
+    /**
+     * Container's getter for BusinessUnitStaticticView1.
+     * @return BusinessUnitStaticticView1
+     */
+    public ViewObjectImpl getBusinessUnitStaticticView1() {
+        return (ViewObjectImpl) findViewObject("BusinessUnitStaticticView1");
+    }
 }
 

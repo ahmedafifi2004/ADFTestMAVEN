@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="model.view.BusinessUnitInfoView1VO.BusinessUnitInfoView1VOTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="model.view.BusinessUnitInfoView1VO.BusinessUnitInfoView1VOTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Oracle\Middleware12213\Oracle_Home\oracle_common\jdk\jre\bin"/>
@@ -30,7 +30,7 @@
     <property name="classworlds.conf" value="C:\Oracle\Middleware12213\Oracle_Home\oracle_common\modules\org.apache.maven_3.2.5\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1256"/>
     <property name="java.library.path" value="C:\Oracle\Middleware12213\Oracle_Home\oracle_common\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\IBM\WebSphere MQ\java\lib;C:\Program Files\IBM\WebSphere MQ\java\lib64;C:\app\aafifi\product\12.1.0\client_1;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\WebSphere MQ\bin64;C:\Program Files\IBM\WebSphere MQ\bin;C:\Program Files\IBM\WebSphere MQ\tools\c\samples\bin;C:\Program Files (x86)\Notepad++;C:\DevTools\apache-maven\bin;C:\Users\aafifi\AppData\Local\Microsoft\WindowsApps;;C:\Users\aafifi\AppData\Local\Programs\Fiddler;C:\Users\aafifi\AppData\Local\Microsoft\WindowsApps;C:\Users\aafifi\AppData\Roaming\npm;."/>
-    <property name="javax.net.ssl.trustStore" value="C:\Users\aafifi\AppData\Local\Temp\trustStore4665229431070511671.jks"/>
+    <property name="javax.net.ssl.trustStore" value="C:\Users\aafifi\AppData\Local\Temp\trustStore2386599028800936999.jks"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,5 +62,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="model.view.BusinessUnitInfoView1VO.BusinessUnitInfoView1VOTest" name="model.view.BusinessUnitInfoView1VO.BusinessUnitInfoView1VOTest.testAccess" time="0.003"/>
+  <testcase classname="model.view.BusinessUnitInfoView1VO.BusinessUnitInfoView1VOTest" name="model.view.BusinessUnitInfoView1VO.BusinessUnitInfoView1VOTest.testAccess" time="0.001"/>
 </testsuite>

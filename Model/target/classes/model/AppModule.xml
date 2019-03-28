@@ -14,4 +14,7 @@
   <ViewUsage
     Name="BusinessUnitInfoView1"
     ViewObjectName="model.BusinessUnitInfoView"/>
+  <ViewUsage
+    Name="BusinessUnitStaticticView1"
+    ViewObjectName="model.BusinessUnitStaticticView"/>
 </AppModule>

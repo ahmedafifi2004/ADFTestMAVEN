@@ -1,5 +1,5 @@
 model\DynamicEnvInfoProvider.class
 model\AllAppModuleTests.class
+model\AppModuleImpl.class
 model\view\BusinessUnitInfoView1VO\BusinessUnitInfoView1VOTest.class
 model\applicationModule\AppModuleAMFixture.class
-model\AppModuleImpl.class
