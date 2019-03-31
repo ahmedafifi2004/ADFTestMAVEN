@@ -18,6 +18,7 @@ public class AllAppModuleTests {
 
     @AfterClass
     public static void tearDown() throws Exception {
+        //test 
         AppModuleAMFixture.getInstance().release();
     }
 }
