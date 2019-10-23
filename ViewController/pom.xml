@@ -7,6 +7,7 @@
   <description>Generated POM from JDeveloper for project ViewController</description>
   <packaging>war</packaging>
   <dependencies>
+    <!--
     <dependency>
       <groupId>ADFTestMAVEN</groupId>
       <artifactId>Model</artifactId>
@@ -14,6 +15,7 @@
       <type>jar</type>
       <scope>compile</scope>
     </dependency>
+-->
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>JSP-Runtime</artifactId>
