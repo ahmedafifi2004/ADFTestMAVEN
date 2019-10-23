@@ -190,6 +190,7 @@
       <type>jar</type>
       <scope>compile</scope>
     </dependency>
+    <!--
     <dependency>
       <groupId>ADFTestMAVEN</groupId>
       <artifactId>Model</artifactId>
@@ -197,6 +198,7 @@
       <type>jar</type>
       <scope>compile</scope>
     </dependency>
+    -->
   </dependencies>
   
   <repositories>
